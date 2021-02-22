@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.11.1.0" clr-version="4.0.30319.42000" start-time="2020-12-29 13:06:06Z" end-time="2020-12-29 13:06:36Z" duration="29.621073">
+  <command-line><![CDATA["C:\Users\vedad\source\repos\ThisIsMyWebSite\packages\NUnit.ConsoleRunner.3.11.1\tools\nunit3-console.exe" C:\Users\vedad\source\repos\ThisIsMyWebSite\ThisIsMyWebSite\bin\Debug\ThisIsMyWebSite.exe]]></command-line>
+  <test-suite type="Assembly" id="0-1006" name="ThisIsMyWebSite.exe" fullname="C:\Users\vedad\source\repos\ThisIsMyWebSite\ThisIsMyWebSite\bin\Debug\ThisIsMyWebSite.exe" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-12-29 13:06:07Z" end-time="2020-12-29 13:06:36Z" duration="29.049998" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19042.0" platform="Win32NT" cwd="C:\Users\vedad\source\repos\ThisIsMyWebSite\packages\NUnit.ConsoleRunner.3.11.1\tools" machine-name="DESKTOP-8M0VRIQ" user="vedad" user-domain="DESKTOP-8M0VRIQ" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\vedad\source\repos\ThisIsMyWebSite\packages\NUnit.ConsoleRunner.3.11.1\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="17344" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1007" name="ThisIsMyWebSite" fullname="ThisIsMyWebSite" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-12-29 13:06:07Z" end-time="2020-12-29 13:06:36Z" duration="29.038262" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <test-suite type="TestSuite" id="0-1008" name="Scenarios" fullname="ThisIsMyWebSite.Scenarios" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-12-29 13:06:07Z" end-time="2020-12-29 13:06:36Z" duration="29.038018" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <test-suite type="TestFixture" id="0-1000" name="LoginInvalidPassword" fullname="ThisIsMyWebSite.Scenarios.LoginInvalidPassword" classname="ThisIsMyWebSite.Scenarios.LoginInvalidPassword" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-12-29 13:06:07Z" end-time="2020-12-29 13:06:22Z" duration="15.183513" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1001" name="ThreeCharacters" fullname="ThisIsMyWebSite.Scenarios.LoginInvalidPassword.ThreeCharacters" methodname="ThreeCharacters" classname="ThisIsMyWebSite.Scenarios.LoginInvalidPassword" runstate="Runnable" seed="433138561" result="Passed" start-time="2020-12-29 13:06:07Z" end-time="2020-12-29 13:06:15Z" duration="7.839163" asserts="1" />
+          <test-case id="0-1002" name="ThreTeenCharacters" fullname="ThisIsMyWebSite.Scenarios.LoginInvalidPassword.ThreTeenCharacters" methodname="ThreTeenCharacters" classname="ThisIsMyWebSite.Scenarios.LoginInvalidPassword" runstate="Runnable" seed="1026445543" result="Passed" start-time="2020-12-29 13:06:15Z" end-time="2020-12-29 13:06:22Z" duration="7.333780" asserts="1" />
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1003" name="LoginInvalidUsername" fullname="ThisIsMyWebSite.Scenarios.LoginInvalidUsername" classname="ThisIsMyWebSite.Scenarios.LoginInvalidUsername" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-12-29 13:06:22Z" end-time="2020-12-29 13:06:36Z" duration="13.847794" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1005" name="TherteenCharacters" fullname="ThisIsMyWebSite.Scenarios.LoginInvalidUsername.TherteenCharacters" methodname="TherteenCharacters" classname="ThisIsMyWebSite.Scenarios.LoginInvalidUsername" runstate="Runnable" seed="1513220845" result="Passed" start-time="2020-12-29 13:06:22Z" end-time="2020-12-29 13:06:29Z" duration="6.791989" asserts="1" />
+          <test-case id="0-1004" name="ThreCharacters" fullname="ThisIsMyWebSite.Scenarios.LoginInvalidUsername.ThreCharacters" methodname="ThreCharacters" classname="ThisIsMyWebSite.Scenarios.LoginInvalidUsername" runstate="Runnable" seed="1148646263" result="Passed" start-time="2020-12-29 13:06:29Z" end-time="2020-12-29 13:06:36Z" duration="7.055511" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
